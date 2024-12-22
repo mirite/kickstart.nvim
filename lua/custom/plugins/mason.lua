@@ -175,6 +175,11 @@ return {
         -- But for many setups, the LSP (`tsserver`) will work just fine
         ts_ls = {},
         eslint_d = {},
+        deno = {},
+        tailwindcss = {},
+        phpcs = {},
+        phpstan = {},
+        phpcbf = {},
         prettier = {},
         lua_ls = {
           -- cmd = { ... },
