@@ -173,6 +173,7 @@ return {
         --    https://github.com/pmizio/typescript-tools.nvim
         --
         -- But for many setups, the LSP (`tsserver`) will work just fine
+        jsonlint = {},
         ts_ls = {},
         eslint_d = {},
         tailwindcss = {},
