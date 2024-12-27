@@ -181,6 +181,7 @@ return {
         phpstan = {},
         phpcbf = {},
         prettier = {},
+        markdownlint = {},
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
