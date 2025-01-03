@@ -331,6 +331,7 @@ require('lazy').setup({
   --
   -- Use the `dependencies` key to specify the dependencies of a particular plugin
   require 'custom.plugins.telescope',
+  require 'custom.plugins.multicursor',
   -- LSP Plugins
   {
     -- `lazydev` configures Lua LSP for your Neovim config, runtime and plugins
