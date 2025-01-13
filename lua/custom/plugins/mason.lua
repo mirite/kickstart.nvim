@@ -181,6 +181,7 @@ return {
         phpstan = {},
         phpcbf = {},
         prettier = {},
+        astro = {},
         markdownlint = {},
         lua_ls = {
           -- cmd = { ... },
