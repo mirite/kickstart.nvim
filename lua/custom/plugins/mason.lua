@@ -183,7 +183,6 @@ return {
         prettier = {},
         astro = {},
         markdownlint = {},
-        stylelint = {},
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
