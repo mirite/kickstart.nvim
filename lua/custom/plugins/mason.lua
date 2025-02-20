@@ -175,8 +175,10 @@ return {
         -- But for many setups, the LSP (`tsserver`) will work just fine
         jsonlint = {},
         ts_ls = {},
+        cssls = {},
         eslint_d = {},
         tailwindcss = {},
+        phpactor = {},
         phpcs = {},
         phpstan = {},
         phpcbf = {},
