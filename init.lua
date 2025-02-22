@@ -566,6 +566,8 @@ require('lazy').setup({
   require 'kickstart.plugins.autopairs',
   require 'custom.plugins.formatter',
   require 'custom.plugins.tree',
+  require 'custom.plugins.cokeline',
+  require 'custom.plugins.dap',
   -- require 'kickstart.plugins.neo-tree',
   -- require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
 
