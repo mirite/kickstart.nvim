@@ -196,7 +196,6 @@ return {
         yamlls = {},
         dockerls = {},
         jsonlint = {},
-        tsserver = {},
         cssls = {},
         eslint_d = {},
         tailwindcss = {},
