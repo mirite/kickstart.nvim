@@ -476,9 +476,6 @@ require('lazy').setup({
     config = function()
       ---@diagnostic disable-next-line: missing-fields
       require('tokyonight').setup {
-        styles = {
-          comments = { italic = false }, -- Disable italics in comments
-        },
         on_highlights = function(hl, colors)
           hl.BlinkCmpDoc = { fg = '#FFD700', bg = '#003311' }
           hl.BlinkCmpMenu = { fg = '#00FFAA', bg = '#1e1e2e' }
