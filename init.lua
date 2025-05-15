@@ -479,8 +479,11 @@ require('lazy').setup({
         styles = {
           comments = { italic = false }, -- Disable italics in comments
         },
+        on_highlights = function(hl, colors)
+          hl.BlinkCmpDoc = { fg = '#FFD700', bg = '#003311' }
+          hl.BlinkCmpMenu = { fg = '#00FFAA', bg = '#1e1e2e' }
+        end,
       }
-
       -- Load the colorscheme here.
       -- Like many other themes, this one has different styles, and you could load
       -- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
