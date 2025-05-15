@@ -158,9 +158,7 @@ vim.opt.scrolloff = 20
 
 vim.opt.spell = true
 vim.opt.spelllang = 'en_ca'
-
-vim.opt.spell = true
-vim.opt.spelllang = 'en_ca'
+vim.opt.spellfile = vim.fn.stdpath 'config' .. '/spell/en.utf-8.add'
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
